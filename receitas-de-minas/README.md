@@ -1,44 +1,8 @@
-<style>
-h1{
-font:25px Verdana,sans-serif;
-margin-top:10px
-}
-h2{
-font:19px Verdana,Sans-Serif;
-color:#000;
-padding-bottom: 8px;
-margin-top:50px;
-border-bottom: 1px dotted #ccc
-}
-h3{
-font:17px Verdana,Sans-Serif;
-border: 1px solid #ccc;
-border-bottom: 1px solid #ccc;
-padding: 8px 0 6px 4px;
-margin: 10px 0 6px;
-font: 14px Verdana,Sans-Serif;
-color: #5a5a5a;
-background-image: linear-gradient(#FAFAFA,#eee);
-}
-p{
-font:15px Verdana, Sans-Serif;
-line-height: 22px;
-color:#000000
-}
-ul, ol{
-font:15px Verdana, Sans-Serif;
-line-height: 22px;
-color:#000000
-}
-</style>
-</head>
-<body>
-
 <h1>Delícias de Minas</h1>
 
 <h2>Feijão Tropeiro</h2>
 
-<img src="/img/feijao-tropeiro.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/feijao-tropeiro.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
@@ -79,7 +43,7 @@ color:#000000
 
 <h2>Frango com Quiabo</h2>
 
-<img src="/img/frango-com-quiabo.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/frango-com-quiabo.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
@@ -123,7 +87,7 @@ color:#000000
 
 <h2>Vaca Atolada</h2>
 
-<img src="/img/vaca-atolada.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/vaca-atolada.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
@@ -159,7 +123,7 @@ color:#000000
 
 <h2>Tutu a Mineira</h2>
 
-<img src="/img/tutu-a-mineira.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/tutu-a-mineira.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
@@ -197,7 +161,7 @@ color:#000000
 
 <h2>Pão de Queijo</h2>
 
-<img src="/img/pao-de-queijo.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/pao-de-queijo.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
@@ -226,7 +190,7 @@ color:#000000
 
 <h2>Torresmo</h2>
 
-<img src="/img/torresmo.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/torresmo.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
@@ -255,7 +219,7 @@ color:#000000
 
 <h2>Mingau de Milho Verde</h2>
 
-<img src="/img/mingau-de-milho-verde.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/mingau-de-milho-verde.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
@@ -284,7 +248,7 @@ color:#000000
 
 <h2>Bolo Cremoso de Fubá</h2>
 
-<img src="/img/bolo-cremoso-de-fuba.jpg">
+<img src="https://github.com/diegoxlz/html/blob/main/receitas-de-minas/img/bolo-cremoso-de-fuba.jpg?raw=true">
 
 <h3>Ingredientes</h3>
 <ul>
