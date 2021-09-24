@@ -1,1 +1,93 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medalhas Brasileiras nos Jogos Olímpicos 🇧🇷</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
 
+    <header>
+        <h1>Quadro de Medalhas Brasileiras nos Jogos Olímpicos</h1>      
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#lista-medalhas">Lista de Medalhas Brasileiras nos Jogos Olímpicos</a></li>
+            <li><a href="#medalhas-jogos-verao">Medalhas nos Jogos de Verão</a></li>
+            <li><a href="#medalhas-jogos-inverno">Medalhas nos Jogos de Inverno</a></li>
+            <li><a href="#medalhas-modalidade">Medalhas por Modalidade</a></li>
+            <li><a href="#medalhas-genero">Medalhas por Gênero</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2 id="lista-medalhas">Lista de Medalhas Brasileiras nos Jogos Olímpicos</h2>
+
+        <table border="1">
+        <tbody>
+        <tr><td>Ano</td><td>Local</td><td>Ouro</td><td>Prata</td><td>Bronze</td><td>Total</td><td>Colocação</td></tr>
+        <tr><td>2016</td><td>Rio de Janeiro   </td><td> 7</td><td>6</td><td>6 </td><td>19</td><td>13º</td></tr>
+        <tr><td>2012</td><td>Londres          </td><td> 3</td><td>5</td><td>9 </td><td>17</td><td>22º</td></tr>
+        <tr><td>2008</td><td>Pequim           </td><td> 3</td><td>4</td><td>10</td><td>17</td><td>22º</td></tr>
+        <tr><td>2004</td><td>Atenas           </td><td> 5</td><td>2</td><td>3 </td><td>10</td><td>16º</td></tr>
+        <tr><td>2000</td><td>Sydney           </td><td>  </td><td>6</td><td>6 </td><td>12</td><td>52º</td></tr>
+        <tr><td>1996</td><td>Atlanta          </td><td> 3</td><td>3</td><td>9 </td><td>15</td><td>25º</td></tr>
+        <tr><td>1992</td><td>Barcelona        </td><td> 2</td><td>1</td><td>  </td><td>3 </td><td>25º</td></tr>
+        <tr><td>1988</td><td>Seul             </td><td> 1</td><td>2</td><td>3 </td><td>6 </td><td>24º</td></tr>
+        <tr><td>1984</td><td>Los Angeles      </td><td> 1</td><td>5</td><td>2 </td><td>8 </td><td>19º</td></tr>
+        <tr><td>1980</td><td>Moscou           </td><td> 2</td><td> </td><td>2 </td><td>4 </td><td>17º</td></tr>
+        <tr><td>1976</td><td>Montreal         </td><td>  </td><td> </td><td>2 </td><td>2 </td><td>36º</td></tr>
+        <tr><td>1972</td><td>Munique          </td><td>  </td><td> </td><td>2 </td><td>2 </td><td>41º</td></tr>
+        <tr><td>1968</td><td>Cidade do México </td><td>  </td><td>1</td><td>2 </td><td>3 </td><td>35º</td></tr>
+        <tr><td>1964</td><td>Tóquio           </td><td>  </td><td> </td><td>1 </td><td>1 </td><td>35º</td></tr>
+        <tr><td>1960</td><td>Roma             </td><td>  </td><td> </td><td>2 </td><td>2 </td><td>39º</td></tr>
+        <tr><td>1956</td><td>Melbourne        </td><td> 1</td><td> </td><td>  </td><td>1 </td><td>24º</td></tr>
+        <tr><td>1952</td><td>Helsinque        </td><td> 1</td><td> </td><td>2 </td><td>3 </td><td>24º</td></tr>
+        <tr><td>1948</td><td>Londres          </td><td>  </td><td> </td><td>1 </td><td>1 </td><td>34º</td></tr>
+        <tr><td>1936</td><td>Berlim           </td><td>  </td><td> </td><td>  </td><td>  </td><td>sc </td></tr>
+        <tr><td>1932</td><td>Los Angeles      </td><td>  </td><td> </td><td>  </td><td>  </td><td>sc </td></tr>
+        <tr><td>1928</td><td>Amsterdam        </td><td>  </td><td> </td><td>  </td><td>  </td><td>np </td></tr>
+        <tr><td>1924</td><td>Paris            </td><td>  </td><td> </td><td>  </td><td>  </td><td>sc </td></tr>
+        <tr><td>1920</td><td>Antuérpia        </td><td> 1</td><td>1</td><td>1 </td><td>3 </td><td>15º</td></tr>
+        <tr><td>1912</td><td>Estocolmo        </td><td>  </td><td> </td><td>  </td><td>  </td><td>np </td></tr>
+        <tr><td>1908</td><td>Londres          </td><td>  </td><td> </td><td>  </td><td>  </td><td>np </td></tr>
+        <tr><td>1904</td><td>St. Louis        </td><td>  </td><td> </td><td>  </td><td>  </td><td>np </td></tr>
+        <tr><td>1900</td><td>Paris            </td><td>  </td><td> </td><td>  </td><td>  </td><td>np </td></tr>
+        <tr><td>1896</td><td>Atenas           </td><td>  </td><td> </td><td>  </td><td>  </td><td>np </td></tr>
+        </tbody>
+        </table>
+
+        <h2 id="medalhas-jogos-verao">Medalhas nos Jogos de Verão</h2>
+
+        <!-- Escreva aqui o código HTML da tabela (medalhas_jogos_verão.txt) -->
+
+        <h2 id="medalhas-jogos-inverno">Medalhas nos Jogos de Inverno</h2>
+
+        <!-- Escreva aqui o código HTML da tabela (medalhas_jogos_inverno.txt) -->
+
+        <h2 id="medalhas-modalidade">Medalhas por Modalidade</h2>
+
+        <!-- Escreva aqui o código HTML da tabela (medalhas_modalidade.txt) -->
+
+        <h2 id="medalhas-genero">Medalhas por Gênero</h2>
+
+        <!-- Escreva aqui o código HTML da tabela (medalhas_genero.txt) -->
+
+    </main>
+
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
