@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastro de Pokemons</title>
+<meta name="description" content="Cadastro de Pokemons.">
+<meta name="keywords" content="cadastro, pokemon">
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta property="article:section" content="Receitas" />
+<meta property="article:tag" content="cadastro, pokemon">
+<meta property="article:published_time" content="2021-09-03 22:51:55" />
+<meta property="article:modified_time" content="2021-09-03 22:51:55" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cadastro de Pokemons" />
+<meta property="og:description" content="Cadastro de Pokemons." />
+<meta property="og:url" content="https://github.com/diegoxlz/html/tree/main/pokemon" />
+<meta property="og:site_name" content="Pokemon" />
+<meta property="og:updated_time" content="2021-09-03 22:51:55" />
+<meta property="og:image" content="https://github.com/diegoxlz/html/raw/main/receitas-de-minas/img/feijao-tropeiro.jpg?raw=true" />
+<meta property="og:image:secure_url" content="https://github.com/diegoxlz/html/raw/main/receitas-de-minas/img/feijao-tropeiro.jpg?raw=true" />
+<meta property="og:image:alt" content="Cadastro de Pokemon" />
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="550">
+<meta property="og:image:height" content="550">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#DD0000">
+<meta name="msapplication-TileColor" content="#ffffff">
+<script type="application/LD+JSON">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Article",
+  "name" : "Cadastro de Pokemon",
+  "headline": "Cadastro de Pokemon",
+ "description": "Cadastro de Pokemon.",
+ "datePublished" : "2021-09-03 22:51:55",
+  "dateModified": "2021-09-03 22:51:55",
+  "image" : "https://github.com/diegoxlz/html/raw/main/receitas-de-minas/img/feijao-tropeiro.jpg?raw=true",
+  "articleSection" : "Receitas",
+  "aggregateRating" : {
+    "@type" : "AggregateRating",
+    "ratingValue" : "",
+    "bestRating" : "5",
+    "worstRating" : "1",
+    "ratingCount" : "0"
+  },
+ "author": {
+    "@type": "Person",
+    "name": "Diego Santos"
+  },
+ "publisher": {
+    "@type": "Organization",
+    "name": "Receitas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://github.com/diegoxlz/html/raw/main/receitas-de-minas/img/feijao-tropeiro.jpg?raw=true"
+    }
+  },
+     "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://github.com/diegoxlz/html/tree/main/receitas-de-minas"
+  }
+}
+</script>
+<style>
+input[type="number"] {
+   width:80px;
+}
+form{
+font:15px Verdana,sans-serif;
+margin-top:10px
+}
+legend{
+font:18px Verdana,sans-serif;
+margin:10px
+}
+h1{
+font:25px Verdana,sans-serif;
+margin-top:10px
+}
+h2{
+font:19px Verdana,Sans-Serif;
+color:#000;
+padding-bottom: 8px;
+margin-top:50px;
+border-bottom: 1px dotted #ccc
+}
+h3{
+font:17px Verdana,Sans-Serif;
+border: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+padding: 8px 0 6px 4px;
+margin: 10px 0 6px;
+font: 14px Verdana,Sans-Serif;
+color: #5a5a5a;
+background-image: linear-gradient(#FAFAFA,#eee);
+}
+p{
+font:15px Verdana, Sans-Serif;
+line-height: 22px;
+color:#000000
+}
+ul, ol{
+font:15px Verdana, Sans-Serif;
+line-height: 22px;
+color:#000000
+}
+</style>
+</head>
+<body>
+<form method="post" action="cadastrar_pokemon.php">
+<fieldset>
+<legend>Cadastro de Pokemon</legend>
+<input name="id" type="hidden">
+<label for="pokemon">Nome do Pokemon </label>
+<input type="text" placeholder="Digite o nome do Pokemon" aria-label="Digite o nome do Pokemon">
+<br><br>
+
+<label for="tipo1">Tipo 1 </label>
+<select name="tipo1" id="tipo1">
+<option>Selecione o Tipo 1</option>
+<option value="Aço">Aço</option>
+<option value="Água">Água</option>
+<option value="Dragão">Dragão</option>
+<option value="Elétrico">Elétrico</option>
+<option value="Fada">Fada</option>
+<option value="Fantasma">Fantasma</option>
+<option value="Fogo">Fogo</option>
+<option value="Gelo">Gelo</option>
+<option value="Inseto">Inseto</option>
+<option value="Lutador">Lutador</option>
+<option value="Normal">Normal</option>
+<option value="Pedra">Pedra</option>
+<option value="Planta">Planta</option>
+<option value="Psíquico">Psíquico</option>
+<option value="Sombrio">Sombrio</option>
+<option value="Terra">Terra</option>
+<option value="Venenoso">Venenoso</option>
+<option value="Voador">Voador</option>
+</select>
+<br><br>
+
+<label for="tipo2">Tipo 2 </label>
+<select name="tipo2" id="tipo2">
+<option>Selecione o Tipo 2</option>
+<option value="Aço">Aço</option>
+<option value="Água">Água</option>
+<option value="Dragão">Dragão</option>
+<option value="Elétrico">Elétrico</option>
+<option value="Fada">Fada</option>
+<option value="Fantasma">Fantasma</option>
+<option value="Fogo">Fogo</option>
+<option value="Gelo">Gelo</option>
+<option value="Inseto">Inseto</option>
+<option value="Lutador">Lutador</option>
+<option value="Normal">Normal</option>
+<option value="Pedra">Pedra</option>
+<option value="Planta">Planta</option>
+<option value="Psíquico">Psíquico</option>
+<option value="Sombrio">Sombrio</option>
+<option value="Terra">Terra</option>
+<option value="Venenoso">Venenoso</option>
+<option value="Voador">Voador</option></select>
+<br><br>
+
+<label for="total">Total </label>
+<input type="number" min="0" name="total" id="total">
+<br><br>
+
+<label for="hp">HP </label>
+<input type="number" min="1" max="255" name="hp" id="hp" placeholder="De 1 a 255" aria-label="De 1 a 255">
+<br><br>
+
+<label for="ataque">Ataque </label>
+<input type="number" min="0" name="ataque" id="ataque">
+<br><br>
+
+<label for="defesa">Defesa </label>
+<input type="number" min="0" name="defesa" id="defesa">
+<br><br>
+
+<label for="ataque_especial">Ataque Especial </label>
+<input type="number" min="0" name="ataque_especial" id="ataque_especial">
+<br><br>
+
+<label for="defesa_especial">Defesa Especial </label>
+<input type="number" min="0" name="defesa_especial" id="defesa_especial">
+<br><br>
+
+<label for="velocidade">Velocidade </label>
+<input type="number" min="0" name="velocidade" id="velocidade">
+<br><br>
+
+<label for="geracao">Geração </label>
+<input type="number" min="1" max="7" name="geracao" id="geracao" placeholder="De 1 a 7" aria-label="De 1 a 7">
+<br><br>
+
+<label for="lendario">Lendário </label>
+<input type="checkbox">
+<br><br>
+
+<label for="cor">Cor </label>
+<select name="cor" id="cor">
+<option>Selecione a cor do Pokemon</option>
+<option value="Amarelo">Amarelo</option>
+<option value="Azul">Azul</option>
+<option value="Branco">Branco</option>
+<option value="Cinza">Cinza</option>
+<option value="Marrom">Marrom</option>
+<option value="Preto">Preto</option>
+<option value="Rosa">Rosa</option>
+<option value="Roxo">Roxo</option>
+<option value="Verde">Verde</option>
+<option value="Vermelho">Vermelho</option>
+</select>
+<br><br>
+
+<label for="altura_m">Altura </label>
+<input type="number" min="0" name="altura_m" id="altura_m" placeholder="Metros" aria-label="Metros">
+<br><br>
+
+<label for="peso_kg">Peso </label>
+<input type="number" min="0" name="peso_kg" id="peso_kg" placeholder="Kg" aria-label="Kg">
+<br><br>
+
+<label for="taxa_captura">Taxa de Captura </label>
+<input type="number" min="0" max="255" name="taxa_captura" id="taxa_captura" placeholder="De 1 a 255" aria-label="De 1 a 255">
+<br><br>
+
+<input type="submit" value="Cadastrar" style="margin: 4px 0px 10px 3px;padding: 6px;">
+</fieldset>
+</form>
+</body>
+</html>
