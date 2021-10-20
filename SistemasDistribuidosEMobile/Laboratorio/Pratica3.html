@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style>
+.compras{
+padding: 10px;
+background: #f4511e;
+width: 300px;
+font-family: 'Roboto Mono';
+font-size: 15px;
+color: #ffffff;
+}
+.sites{
+padding: 10px;
+}
+.sites a{
+background: #0000FF;
+color: #FFFFFF;
+text-decoration: none;
+font-size: 18px;
+padding: 8px;
+}
+.formulario{
+color: #000000;
+font: 12px Arial;
+}
+input[type="submit"] {
+background: #ffd54f;
+color: #000000;
+border: 0;
+padding: 8px;
+}
+</style>
+<body>
+<h1>Prática 3</h1>
+<h2>Exercício 1</h2>
+<div class="compras">
+<h3>Minha lsta de compras:</h3>
+<ul>
+<li>Arroz</li>
+<li>Feijao</li>
+<li>Laranja</li>
+<li>Maça</li>
+<li>Pão</li>
+</ul>
+</div>
+<br><br>
+
+<h2>Exercício 2</h2>
+<div class="sites compras">
+<h3>Sites:</h3>
+<a href="https://google.com">Google</a>
+<a href="https://youtube.com">YouTube</a>
+<a href="https://instagram.com">Instagram</a>
+</div>
+<br><br>
+
+
+<h2>Exercício 3</h2>
+<div class="compras formulario">
+<form action="https://google.com" type="post">
+<label for="nome">Nome: </label><input type="text" name="nome" size="30" placeholder="informe seu nome" aria-label="informe seu nome"><br>
+<label for="escolaridade">Escolaridade: </label><input type="radio" name="escolaridade" value="fundamental">Fundamental<input type="radio" name="escolaridade" value="medio">Médio <input type="radio" name="escolaridade" value="superior">Superior
+<br>
+<label for="veiculo">Veículo: </label><input type="checkbox" name="bicicleta" value="1">Bicicleta<input type="checkbox" name="moto" value="1">Moto <input type="checkbox" name="carro" value="1">Carro
+<br>
+<input type="submit" value="Enviar">
+</form>
+</div>
+</body>
+</html>
